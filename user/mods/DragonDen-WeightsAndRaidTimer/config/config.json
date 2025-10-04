@@ -1,0 +1,41 @@
+{
+    "debug": false,
+
+    "raidTimeLimit": {
+        "enabled": true,
+
+        "__comment_raidTimeLimit": "Set how long raids last on each map (in minutes). Map names are shown in the comments.",
+        "bigmap": 40,           "__comment_bigmap": "Customs",
+        "factory4_day": 20,     "__comment_factory4_day": "Factory (Day)",
+        "factory4_night": 25,   "__comment_factory4_night": "Factory (Night)",
+        "woods": 40,            "__comment_woods": "Woods",
+        "rezervbase": 40,       "__comment_rezervbase": "Reserve",
+        "interchange": 40,      "__comment_interchange": "Interchange",
+        "lighthouse": 40,       "__comment_lighthouse": "Lighthouse",
+        "shoreline": 45,       "__comment_shoreline": "Shoreline",
+        "tarkovstreets": 50,    "__comment_tarkovstreets": "Streets of Tarkov",
+        "laboratory": 40,       "__comment_laboratory": "The Lab",
+        "sandbox": 35,          "__comment_sandbox": "Ground Zero"
+    },
+    "weightChanger": {
+        "enabled": true,
+
+        "__comment_percent": "Global percent when no per-item or per-parent match. 100% keeps default. 50% halves. 0% makes items 0 weight, 400% makes it 4 times as heavy.",
+        "percent": 100,
+
+        "__comment_perParentPercent": "Use parent id or _name to percent. Applies to all items with that _parent. (use https://db.sp-tarkov.com)",
+        "perParentPercent": {
+            "Ammo": 100
+        },
+
+        "__comment_perItemPercent": "Use item id or _name to percent. Overrides parent and global. (use https://db.sp-tarkov.com)",
+        "perItemPercent": {
+        },
+
+        "__comment_whitelistItem": "Will only edit these items. Id or _name. Empty means no restriction.",
+        "whitelistItem": [],
+        
+        "__comment_blacklistItem": "Will not edit these items. Id or _name. Overrides all.",
+        "blacklistItem": []
+    }
+}
